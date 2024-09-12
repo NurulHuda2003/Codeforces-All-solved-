@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   int n,flag;
+   cin>>n;//greater than 10
+   while (n){
+    if(n>=5){
+        n=n-5;
+        flag++;
+    }else if(n==4){
+        n=n-4;
+        flag++;
+    }else if(n==3){
+        n=n-3;
+        flag++;
+    }else if(n==2){
+        n=n-2;
+        flag++;
+    }else{
+         n=n-1;
+        flag++;
+    }
+   }
+   cout<<flag<<endl;
+
+}
