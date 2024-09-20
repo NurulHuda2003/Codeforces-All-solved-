@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+int n;
+cin>>n;
+    int n1;
+       
+    for(int i=0;i<n;i++){
+         int s=0;
+        cin>>n1;
+         s=n1/3;
+        if(n1%3==0)
+       {
+       
+        cout<<s<<" "<<s<<endl;
+       }
+       else if(n1%3==1){
+      
+        cout<<s+1<<" "<<s<<endl;
+       }else{
+        //if(n%3==2){
+            cout<<s<<" "<<s+1<<endl;
+       }
+    //}
+    }
+}
